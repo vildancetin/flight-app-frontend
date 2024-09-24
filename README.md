@@ -1,6 +1,7 @@
 # FLIGHT APP
 ## Outline
 ![flight-app](https://github.com/user-attachments/assets/427f2813-2bfa-4afe-9a71-f31cb04cc693)
+![flight-app-2](https://github.com/user-attachments/assets/512fdafc-75de-4619-8a2f-000bc49b383b)
 
 ## Get Started
 
