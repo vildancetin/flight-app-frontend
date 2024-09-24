@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .shadow-bottom {
+      box-shadow: 0px 6px 8px -1px #ae93e7;
+    }
+    .tags span:hover{
+        cursor: pointer;
+    }
+    .buttons button{
+        @apply font-medium px-4 py-2 text-sm
+    }
+    .buttons .active{
+        @apply bg-purple text-soft_purple
+    }
+    .icon{
+        @apply absolute top-1/2 transform -translate-y-1/2 left-2 text-purple
+    }
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  input[type="radio"] {
+    @apply hidden; 
+  }
+
+  input[type="radio"] + label {
+    @apply relative cursor-pointer pl-[18px] before:content-[""] before:absolute before:w-3 before:h-3 before:bg-[white] before:rounded-[50%] before:border-2 before:border-solid before:border-purple before:left-0 before:top-1/2 before:transform before:-translate-y-1/2 flex items-center; 
+  }
+
+  input[type="radio"]:checked + label::before {
+    @apply bg-purple border-purple; 
+  }
