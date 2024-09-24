@@ -6,6 +6,8 @@
 
 - The reserved flights will be listed on the "My Flights" page, allowing users to easily view and manage their bookings.
 
+- "Before starting, make sure to complete the steps in the CORS section."
+
 ### Technologies Used
 
 - tailwind
