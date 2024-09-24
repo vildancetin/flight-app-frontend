@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // It gets and updates filteri Values
 const FilterCard = ({filterValues,setFilterValues}) => {

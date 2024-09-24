@@ -43,7 +43,7 @@ const FlightPickCard = ({
   // Updates the entered information values
   const handleDestinationsInput = (e) => {
     const { name, value } = e.target;
-    if (name === "departure" && value != "AMS") {
+    if (name === "departure" && value !== "AMS") {
       setDestinationsInput({
         ...destinationsInput,
         departure: value.toUpperCase(),
