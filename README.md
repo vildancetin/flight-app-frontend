@@ -1,5 +1,7 @@
 # FLIGHT APP
 ## Outline
+![flight-app](https://github.com/user-attachments/assets/427f2813-2bfa-4afe-9a71-f31cb04cc693)
+
 ## Get Started
 
 - This application allows users to enter a flight code and search for flights based on date and direction. It utilizes the Schiphol API to list flights. The data returned from the API is filtered based on the specified query parameters.Users can make reservations for the desired flights, which are then saved to the database. 
