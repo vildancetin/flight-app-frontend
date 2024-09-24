@@ -17,7 +17,7 @@ const MyFlights = () => {
       try {
         const data = await axios.get(
           "https://cors-anywhere.herokuapp.com/https://flight-app-backend-f0ql.onrender.com/flights",
-          { headers: { "X-Requested-With": "XMLHttpRequest" } }
+          { headers: {   "X-Requested-With": "XMLHttpRequest" } }
         );
         setBookFlights(data.data.data);
       } catch (error) {

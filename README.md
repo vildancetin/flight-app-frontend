@@ -18,6 +18,7 @@
 ### API Usage
 
 - Flight data is retrieved in groups of 20 due to pagination. In the returned data from the API, the destination is set according to the flightDirection, either as a departure or arrival point. Since flight duration is not specified, departure or arrival times are set manually.
+- Sometimes the information does not arrive because it says "too many requests" and you have to wait a while.
 
 - The data returned from the API is structured as follows:
 
@@ -59,8 +60,8 @@
 
 ### CORS Issue
 
-To bypass the CORS restriction when making requests to the API, "https://cors-anywhere.herokuapp.com/" is prefixed to the request URL.
-
+- To bypass the CORS restriction when making requests to the API, "https://cors-anywhere.herokuapp.com/" is prefixed to the request URL.
+- Before starting, you need to go to the address https://cors-anywhere.herokuapp.com/corsdemo and activate it.
 ## Custom Hooks
 
 ### useFetch()
